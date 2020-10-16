@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+*{
+    margin: 0; padding: 0;
+}
+/*  */
+body{
+    background-color:rgba(50, 115, 220, 0.3);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo1{
+    display: flex;
+    justify-content: center;
+}
+
+.block1{
+    display: flex;
+    justify-content: center ;  
+    box-shadow: 12px 12px 2px 1px rgba(12, 162, 199, 0.2);
+    
+}
+section{
+    width:100%;
+    height: 450px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+
+.link{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* END BODY */
+
+/* HEADER */
+
+
+.inner{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.menu{
+    height: 66px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 220, 147);
+    opacity: 0.70;
+    border: 2px solid black;
+    flex-wrap: wrap;
+  
+}
+
+
+
+
+.logo{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 700    ;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    color: rgb(8, 8, 8);
+    transition-duration: 2000ms;
+    transition-property: color, transform;
+}
+
+
+
+
+
+
+.logo:hover{
+    color:rgb(255, 255, 255);
+    text-shadow:3px 3px 3px darkred;
+    transform:rotatey(360deg);
+}
+
+
+
+.menu-left{ display: flex;
+            justify-content: baseline;
+            align-self: center;
+            
+}
+
+
+
+
+.menu-right{
+   float: right;
+}
+
+
+
+
+.m-link{
+    color: rgb(2, 2, 2);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 0px; margin: 0px  10px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+
+}
+
+
+
+
+.m-link i{
+    margin-right: 4px;
+}
+
+
+
+
+
+.m-link:hover{
+    border-color: white;
+}
+
+/* END HEADER */
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #d8dfe6b6;
+    width: 100%;
+    height:100%;
+    position:absolute;
+bottom:0;
+width:100%;
+padding-top:20px;
+height:50px;
+
+    
+    
+}
+
+
+
+.rezo{
+    margin-left: 35px;
+}
+/* END FOOTER */
+
+
+
+
+
+
+
+/* INSCRIPTION */
+
+
+
+
+
+
+#block2{
+    
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 90px;
+    margin-left: 100px;
+    font-size: 19px;
+    width: max-content;
+
+    
+}
+#section{
+    width:100%;
+    height: 450px;
+    
+
+
+}
+
+#second{
+    display: flex;
+    align-items: center;
+}
+
+
+
+#block3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-size: 19px;
+    width: max-content;
+
+    
+}
+#section{
+    width:100%;
+    height: 450px;
+    
+
+
+}
+
+button {
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+
+  .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(0, 220, 147);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgb(255, 51, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mot_de_passe */
+
+
+#logo{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(8, 8, 8);
+    transition-duration: 2000ms;
+    transition-property: color, transform;
+}
+
+
+
+
+
+
+#logo:hover{
+    color:rgb(255, 255, 255);
+    text-shadow:3px 3px 3px darkred;
+    transform:rotatey(360deg);
+    content: 'wiwiwiwiwi';
+}
+
+#h1mdp{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#h1mdp:hover{
+    transition-duration: 2000ms;
+    transition-property: color, transform;
+    text-shadow:3px 3px 3px rgb(55, 170, 122);
+    transform:rotatex(360deg);
+    
+}
+
+#block10{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(161, 145, 145);
+    background:  #d8dfe6b6;
+    max-width: max-content;
+    margin-left: 550px;
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+
+
+/* END_MOT_DE_PASSE */
